@@ -1,189 +1,30 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:3fb950,100:bf4b8a&height=300&section=header&text=Manvanth%20Gowda%20M&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20Engineer%20%7C%20AI%20%26%20Full-Stack%20Developer&descSize=20&descAlignY=60" width="100%" />
 
-<!-- ✨ Modern Animated Hero Section ✨ -->
-<div style="position: relative; padding: 40px 20px; background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #21262d 100%); border-radius: 20px; margin-bottom: 30px; overflow: hidden; border: 2px solid #58A6FF; box-shadow: 0 20px 40px rgba(88, 166, 255, 0.3);">
+  <br/>
 
-  <!-- Floating Background Elements -->
-  <div style="position: absolute; top: 20px; left: 20px; animation: float 6s ease-in-out infinite; opacity: 0.6;">
-    <div style="width: 40px; height: 40px; background: linear-gradient(45deg, #58A6FF, #3fb950); border-radius: 50%; filter: blur(2px);"></div>
+  <h1>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi+there!+👋;I'm+Manvanth+Gowda+M;A+Passionate+Developer;An+AI+Enthusiast" alt="Typing SVG" />
+  </h1>
+
+  <div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
+    <img src="https://img.shields.io/badge/AI%20%2F%20ML-58A6FF?style=for-the-badge&logo=openai&logoColor=white" />
+    <img src="https://img.shields.io/badge/Full%20Stack-3fb950?style=for-the-badge&logo=react&logoColor=white" />
+    <img src="https://img.shields.io/badge/Innovation-bf4b8a?style=for-the-badge&logo=lightning&logoColor=white" />
   </div>
-  <div style="position: absolute; top: 60px; right: 30px; animation: float 4s ease-in-out infinite reverse; opacity: 0.4;">
-    <div style="width: 25px; height: 25px; background: linear-gradient(45deg, #bf4b8a, #f7931e); border-radius: 50%; filter: blur(1px);"></div>
-  </div>
-  <div style="position: absolute; bottom: 30px; left: 40px; animation: float 5s ease-in-out infinite; opacity: 0.5;">
-    <div style="width: 30px; height: 30px; background: linear-gradient(45deg, #f85149, #58A6FF); border-radius: 50%; filter: blur(2px);"></div>
-  </div>
 
-  <!-- Main Content -->
-  <div style="position: relative; z-index: 2;">
-    
-    <!-- Animated Greeting -->
-    <div style="animation: slideInFromTop 1s ease-out;">
-      <h1 style="color: #58A6FF; font-size: 2.5em; margin: 0 0 10px 0; font-weight: 300; text-shadow: 0 0 20px rgba(88, 166, 255, 0.5);">
-        Hi there! 👋
-      </h1>
-    </div>
-
-    <!-- Animated Name with Gradient Effect -->
-    <div style="animation: slideInFromBottom 1.2s ease-out; animation-delay: 0.3s; animation-fill-mode: both;">
-      <h2 style="
-        font-size: 3.5em; 
-        margin: 0; 
-        font-weight: 700;
-        background: linear-gradient(-45deg, #58A6FF, #3fb950, #bf4b8a, #f7931e, #58A6FF);
-        background-size: 300% 300%;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        animation: gradientShift 3s ease-in-out infinite, pulse 2s ease-in-out infinite alternate;
-        text-shadow: 0 0 30px rgba(88, 166, 255, 0.3);
-        filter: drop-shadow(0 0 10px rgba(88, 166, 255, 0.2));
-      ">
-        Manvanth Gowda M
-      </h2>
-    </div>
-
-    <!-- Animated Subtitle -->
-    <div style="animation: fadeInScale 1.5s ease-out; animation-delay: 0.6s; animation-fill-mode: both;">
-      <h3 style="
-        color: #c9d1d9; 
-        font-size: 1.8em; 
-        margin: 15px 0 20px 0; 
-        font-weight: 400;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-        animation: glow 2s ease-in-out infinite alternate;
-      ">
-        🎓 Computer Science Engineer
-      </h3>
-    </div>
-
-    <!-- Animated Description -->
-    <div style="animation: fadeInScale 1.8s ease-out; animation-delay: 0.9s; animation-fill-mode: both;">
-      <p style="
-        color: #8b949e; 
-        font-size: 1.3em; 
-        margin: 0 0 25px 0; 
-        font-weight: 300;
-        line-height: 1.6;
-        max-width: 600px;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-      ">
-        🚀 AI & Full-Stack Developer crafting intelligent solutions and innovative experiences
-      </p>
-    </div>
-
-    <!-- Animated Tech Stack Pills -->
-    <div style="animation: slideInFromRight 2s ease-out; animation-delay: 1.2s; animation-fill-mode: both; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 25px;">
-      <span style="
-        background: linear-gradient(135deg, #58A6FF, #3fb950); 
-        color: white; 
-        padding: 8px 16px; 
-        border-radius: 25px; 
-        font-size: 0.9em; 
-        font-weight: 500;
-        box-shadow: 0 4px 15px rgba(88, 166, 255, 0.3);
-        animation: float 3s ease-in-out infinite;
-        animation-delay: 0s;
-      ">🤖 AI/ML</span>
-      <span style="
-        background: linear-gradient(135deg, #bf4b8a, #f7931e); 
-        color: white; 
-        padding: 8px 16px; 
-        border-radius: 25px; 
-        font-size: 0.9em; 
-        font-weight: 500;
-        box-shadow: 0 4px 15px rgba(191, 75, 138, 0.3);
-        animation: float 3s ease-in-out infinite;
-        animation-delay: 0.5s;
-      ">⚡ Full-Stack</span>
-      <span style="
-        background: linear-gradient(135deg, #f7931e, #f85149); 
-        color: white; 
-        padding: 8px 16px; 
-        border-radius: 25px; 
-        font-size: 0.9em; 
-        font-weight: 500;
-        box-shadow: 0 4px 15px rgba(247, 147, 30, 0.3);
-        animation: float 3s ease-in-out infinite;
-        animation-delay: 1s;
-      ">🔬 Innovation</span>
-    </div>
-
-    <!-- Welcome Message -->
-    <div style="animation: fadeInScale 2.2s ease-out; animation-delay: 1.5s; animation-fill-mode: both;">
-      <p style="
-        color: #58A6FF; 
-        font-size: 1.1em; 
-        margin: 0; 
-        font-weight: 500;
-        text-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
-      ">
-        💡 Passionate about building the future, one line of code at a time
-      </p>
-    </div>
-
-  </div>
-</div>
-
-<!-- CSS Animations -->
-<style>
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.02); }
-}
-
-@keyframes glow {
-  0% { text-shadow: 0 0 5px rgba(88, 166, 255, 0.5); }
-  100% { text-shadow: 0 0 20px rgba(88, 166, 255, 0.8), 0 0 30px rgba(88, 166, 255, 0.3); }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-20px) rotate(180deg); }
-}
-
-@keyframes slideInFromTop {
-  0% { transform: translateY(-50px); opacity: 0; }
-  100% { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes slideInFromBottom {
-  0% { transform: translateY(50px); opacity: 0; }
-  100% { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes slideInFromRight {
-  0% { transform: translateX(50px); opacity: 0; }
-  100% { transform: translateX(0); opacity: 1; }
-}
-
-@keyframes fadeInScale {
-  0% { transform: scale(0.8); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
-}
-</style>
-
-<!-- Enhanced Social Stats Section -->
-<div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap; margin-bottom: 30px; padding: 0 10px; animation: fadeInScale 2.5s ease-out; animation-delay: 1.8s; animation-fill-mode: both;">
-  <span style="margin: 5px; animation: float 4s ease-in-out infinite;">
+  <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
     <a href="https://github.com/Manvanth-Gowda-M?tab=followers">
-      <img src="https://img.shields.io/github/followers/Manvanth-Gowda-M?style=flat-square&color=58A6FF" alt="GitHub Followers" style="box-shadow: 0 4px 15px rgba(88, 166, 255, 0.3); border-radius: 8px;" />
+      <img src="https://img.shields.io/github/followers/Manvanth-Gowda-M?style=flat-square&color=58A6FF&label=Followers" alt="Followers" />
     </a>
-  </span>
-  <span style="margin: 5px; animation: float 4s ease-in-out infinite; animation-delay: 0.5s;">
     <a href="https://github.com/Manvanth-Gowda-M?tab=repositories">
-      <img src="https://img.shields.io/github/stars/Manvanth-Gowda-M/Resmeinfo_project?style=flat-square&color=58A6FF" alt="GitHub Stars" style="box-shadow: 0 4px 15px rgba(88, 166, 255, 0.3); border-radius: 8px;" />
+      <img src="https://img.shields.io/github/stars/Manvanth-Gowda-M/Resmeinfo_project?style=flat-square&color=58A6FF&label=Project+Stars" alt="Project Stars" />
     </a>
-  </span>
+    <img src="https://komarev.com/ghpvc/?username=Manvanth-Gowda-M&color=58A6FF&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  </div>
 </div>
 
-</div>
+<br/>
 
 ---
 
@@ -213,8 +54,6 @@
 </div>
 
 </div>
-
----
 
 ---
 
@@ -488,6 +327,6 @@ I'm always excited to work on innovative projects, especially in:
 <div align="center" style="padding: 0 15px;">
 
 <p><sub>🚀 Built with ❤️ and lots of ☕ by Manvanth Gowda M</sub></p>
-<p><sub>🕒 Last Updated: December 2024</sub></p>
+<p><sub>🕒 Last Updated: January 2025</sub></p>
 
 </div>
