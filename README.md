@@ -68,41 +68,6 @@
 
 ---
 
-## 📊 GitHub Statistics
-
-<!-- Mobile-responsive GitHub Statistics -->
-<div align="center" style="max-width: 100%; padding: 0 10px;">
-
-<!-- GitHub Stats Cards - Mobile Responsive -->
-<div style="display: flex; flex-direction: column; align-items: center; gap: 20px; margin-bottom: 25px;">
-
-<!-- Desktop: Side by side, Mobile: Stacked -->
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; width: 100%; max-width: 900px;">
-  <a href="https://github.com/Manvanth-Gowda-M" style="flex: 1; min-width: 300px; max-width: 420px; text-decoration: none;">
-    <div style="border: 2px solid #58A6FF; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(88, 166, 255, 0.2); background: #0d1117;">
-      <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Manvanth-Gowda-M&show_icons=true&theme=radical&count_private=true&include_all_commits=true&hide_title=false" style="width: 100%; height: auto; display: block;" />
-    </div>
-  </a>
-  <a href="https://github.com/Manvanth-Gowda-M" style="flex: 1; min-width: 300px; max-width: 420px; text-decoration: none;">
-    <div style="border: 2px solid #58A6FF; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(88, 166, 255, 0.2); background: #0d1117;">
-      <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manvanth-Gowda-M&layout=compact&theme=radical&count_private=true&hide_title=false" style="width: 100%; height: auto; display: block;" />
-    </div>
-  </a>
-</div>
-
-<!-- GitHub Streak - Animated Button Look -->
-<div style="width: 100%; max-width: 600px; margin-top: 10px;">
-  <a href="https://github.com/Manvanth-Gowda-M" style="text-decoration: none;">
-    <div style="border: 2px solid #58A6FF; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(88, 166, 255, 0.2); background: #0d1117;">
-      <img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Manvanth-Gowda-M&theme=radical&border=58A6FF&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" style="width: 100%; height: auto; display: block;" />
-    </div>
-  </a>
-</div>
-
-</div>
-
-</div>
-
 ---
 
 ## 💻 Technology Stack
