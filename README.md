@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:3fb950,100:bf4b8a&height=300&section=header&text=Manvanth%20Gowda%20M&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20Engineer%20%7C%20AI%20%26%20Full-Stack%20Developer&descSize=20&descAlignY=60" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:3fb950,100:bf4b8a&height=300&section=header&text=Manvanth%20Gowda%20M&fontSize=70&fontAlignY=38&desc=Computer%20Science%20Engineer%20%7C%20AI%20and%20Full-Stack%20Developer&descSize=20&descAlignY=60" width="100%" alt="Header" />
 
   <br/>
 
   <h1>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi+there!+👋;I'm+Manvanth+Gowda+M;A+Passionate+Developer;An+AI+Enthusiast" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi+there!+%F0%9F%91%8B;I'm+Manvanth+Gowda+M;A+Passionate+Developer;An+AI+Enthusiast" alt="Typing SVG" />
   </h1>
 
   <div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
