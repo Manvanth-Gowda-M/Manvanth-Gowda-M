@@ -240,11 +240,6 @@ Kannada language keyboard interface and typing tutor with smart prediction featu
   <img alt="GitHub Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Manvanth-Gowda-M&bg_color=0d1117&color=58A6FF&line=3fb950&point=bf4b8a&area=true&area_color=1f6feb33&hide_title=true" style="width: 100%; height: auto;" />
 </div>
 
-<!-- GitHub Trophy - Mobile Responsive -->
-<div style="width: 100%; max-width: 600px; margin: 0 auto;">
-  <img alt="GitHub Trophy" src="https://github-profile-trophy.vercel.app/?username=Manvanth-Gowda-M&row=1&theme=radical&no-frame=true&no-bg=true&margin-w=4&margin-h=4" style="width: 100%; height: auto;" />
-</div>
-
 </div>
 
 ---
