@@ -313,10 +313,6 @@ I'm always excited to work on innovative projects, especially in:
 
 <p><strong>Thanks for visiting my profile! 🚀</strong></p>
 
-<div style="max-width: 300px; margin: 0 auto;">
-  <img alt="Visitor Counter" src="https://profile-counter.glitch.me/Manvanth-Gowda-M/count.svg" style="width: 100%; height: auto;" />
-</div>
-
 </div>
 
 ---
