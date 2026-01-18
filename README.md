@@ -19,11 +19,6 @@
 <!-- Profile Views & Social Stats with mobile-responsive design -->
 <div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap; margin-bottom: 30px; padding: 0 10px;">
   <span style="margin: 5px;">
-    <a href="https://github.com/Manvanth-Gowda-M">
-      <img src="https://komarev.com/ghpvc/?username=Manvanth-Gowda-M&color=blue&style=flat-square" alt="GitHub Profile Views" />
-    </a>
-  </span>
-  <span style="margin: 5px;">
     <a href="https://github.com/Manvanth-Gowda-M?tab=followers">
       <img src="https://img.shields.io/github/followers/Manvanth-Gowda-M?style=flat-square&color=58A6FF" alt="GitHub Followers" />
     </a>
