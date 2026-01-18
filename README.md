@@ -5,15 +5,29 @@
 
 </div>
 
+<!-- Spacer for better separation -->
+<div style="height: 20px;"></div>
+
 <div align="center">
 
 <!-- Animated Welcome Badge -->
 ![Welcome](https://readme-jokes.vercel.app/api?bg=%230d1117&ec=1f6feb&ac=58A6FF&qColor=%23fff&qAc=%23fff)
 
-<!-- Profile Views & Social Stats -->
-![GitHub Profile Views](https://komarev.com/ghpvc/?username=manvanth-gowda-m&color=blue&style=flat-square)
-![GitHub Followers](https://img.shields.io/github/followers/manvanth-gowda-m?style=flat-square&color=58A6FF)
-![GitHub Stars](https://img.shields.io/github/stars/manvanth-gowda-m?style=flat-square&color=58A6FF)
+<!-- Spacer -->
+<div style="height: 15px;"></div>
+
+<!-- Profile Views & Social Stats with better spacing -->
+<div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap; margin-bottom: 20px;">
+  <span style="margin: 0 10px;">
+    ![GitHub Profile Views](https://komarev.com/ghpvc/?username=manvanth-gowda-m&color=blue&style=flat-square)
+  </span>
+  <span style="margin: 0 10px;">
+    ![GitHub Followers](https://img.shields.io/github/followers/manvanth-gowda-m?style=flat-square&color=58A6FF)
+  </span>
+  <span style="margin: 0 10px;">
+    ![GitHub Stars](https://img.shields.io/github/stars/manvanth-gowda-m?style=flat-square&color=58A6FF)
+  </span>
+</div>
 
 </div>
 
@@ -21,26 +35,59 @@
 
 ## 👨‍💻 About Me
 
-<div align="center">
+<!-- Animated About Section with Fade-in Effect -->
+<div align="center" style="animation: fadeIn 1.5s ease-in-out;">
 
-```javascript
-const manvanthGowda = {
-    👨‍💼 profession: "Computer Science Engineering Student",
-    🎯 passion: "AI systems & open source development",
-    🧠 interests: [
-        "MCP servers",
-        "Prompt engineering", 
-        "Intelligent workflows",
-        "Advanced AI pipelines",
-        "Full-stack development"
-    ],
-    🏢 currentlyBuilding: "NextGenX projects",
-    📍 location: "🇮🇳 India",
-    🌱 status: "Always learning & growing"
-};
-```
+<div style="max-width: 800px; margin: 0 auto; padding: 20px; background: linear-gradient(145deg, #0d1117, #161b22); border-radius: 15px; border: 2px solid #58A6FF; box-shadow: 0 10px 30px rgba(88, 166, 255, 0.2);">
+
+<p style="color: #c9d1d9; font-size: 1.1em; line-height: 1.8; text-align: left;">
+  <span style="color: #58A6FF; font-weight: bold;">🎓</span> I'm a passionate <span style="color: #58A6FF; font-weight: bold;">Computer Science Engineering student</span> with a deep fascination for <span style="color: #3fb950; font-weight: bold;">AI systems</span> and <span style="color: #bf4b8a; font-weight: bold;">open-source development</span>. My journey in technology is driven by curiosity and the desire to create impactful solutions.
+</p>
+
+<div style="height: 15px;"></div>
+
+<p style="color: #c9d1d9; font-size: 1.1em; line-height: 1.8; text-align: left;">
+  <span style="color: #58A6FF; font-weight: bold;">🧠</span> I'm particularly interested in <span style="color: #f7931e; font-weight: bold;">MCP servers</span>, <span style="color: #f7931e; font-weight: bold;">prompt engineering</span>, and building <span style="color: #f7931e; font-weight: bold;">intelligent workflows</span> that enhance productivity and creativity. Currently, I'm diving deep into <span style="color: #3fb950; font-weight: bold;">advanced AI pipelines</span> and <span style="color: #3fb950; font-weight: bold;">full-stack development</span> as part of the <span style="color: #bf4b8a; font-weight: bold;">NextGenX</span> initiative.
+</p>
+
+<div style="height: 15px;"></div>
+
+<p style="color: #c9d1d9; font-size: 1.1em; line-height: 1.8; text-align: left;">
+  <span style="color: #58A6FF; font-weight: bold;">🌱</span> Based in <span style="color: #f7931e; font-weight: bold;">🇮🇳 India</span>, I'm committed to continuous learning and growth. I believe in the power of technology to transform lives and I'm always exploring new ways to leverage <span style="color: #3fb950; font-weight: bold;">cutting-edge AI technologies</span> to solve real-world problems.
+</p>
+
+<div style="height: 15px;"></div>
+
+<p style="color: #c9d1d9; font-size: 1.1em; line-height: 1.8; text-align: left;">
+  <span style="color: #58A6FF; font-weight: bold;">🔭</span> When I'm not coding, you can find me experimenting with new technologies, contributing to open-source projects, or exploring the latest advancements in <span style="color: #bf4b8a; font-weight: bold;">machine learning</span> and <span style="color: #bf4b8a; font-weight: bold;">artificial intelligence</span>.
+</p>
 
 </div>
+
+</div>
+
+<!-- CSS Animations -->
+<style>
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hover-glow {
+  transition: all 0.3s ease;
+}
+
+.hover-glow:hover {
+  color: #58A6FF;
+  text-shadow: 0 0 10px rgba(88, 166, 255, 0.5);
+}
+</style>
 
 ---
 
@@ -197,7 +244,7 @@ Interactive storytelling platform with collaborative features and AI-generated n
 </div>
 
 <!-- ANIMATED GITHUB BUTTON -->
-<a href="https://github.com/Manvanth-Gowda-M/storybook" style="display: inline-block; padding: 12px 25px; background: linear-gradient(45deg, #238636, #2ea043); color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 14px; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(46, 160, 67, 0.4); transform: translateY(0);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(46, 160, 67, 0.6)'; this.style.background='linear-gradient(45deg, #2ea043, #3fb950)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(46, 160, 67, 0.4)'; this.style.background='linear-gradient(45deg, #238636, 2ea043)';">
+<a href="https://github.com/Manvanth-Gowda-M/storybook" style="display: inline-block; padding: 12px 25px; background: linear-gradient(45deg, #238636, #2ea043); color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 14px; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(46, 160, 67, 0.4); transform: translateY(0);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(46, 160, 67, 0.6)'; this.style.background='linear-gradient(45deg, #2ea043, #3fb950)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(46, 160, 67, 0.4)'; this.style.background='linear-gradient(45deg, #238636, #2ea043)';">
   <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 8px; vertical-align: middle;">
     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.63-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
   </svg>
