@@ -1,21 +1,4 @@
-<style>
-@keyframes glow { 0%, 100% { text-shadow: 0 0 10px #FFD700, 0 0 20px #D4AF37; } 50% { text-shadow: 0 0 20px #FFD700, 0 0 40px #D4AF37, 0 0 60px #FFD700; } }
-@keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-20px); } }
-@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
-@keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.7; transform: scale(1.1); } }
-@keyframes shimmer { 0% { background-position: -1000px 0; } 100% { background-position: 1000px 0; } }
-@keyframes slideInLeft { from { opacity: 0; transform: translateX(-50px); } to { opacity: 1; transform: translateX(0); } }
-@keyframes slideInRight { from { opacity: 0; transform: translateX(50px); } to { opacity: 1; transform: translateX(0); } }
-@keyframes slideInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-@keyframes slideInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
-@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-@keyframes scaleIn { from { opacity: 0; transform: scale(0.8); } to { opacity: 1; transform: scale(1); } }
-@keyframes rotateIn { from { opacity: 0; transform: rotate(-10deg); } to { opacity: 1; transform: rotate(0deg); } }
-@keyframes wiggle { 0%, 100% { transform: rotate(0deg); } 25% { transform: rotate(-2deg); } 75% { transform: rotate(2deg); } }
-@keyframes neon-glow { 0%, 100% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.3); } 50% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(212, 175, 55, 0.6); } }
-@keyframes wave { 0%, 100% { transform: rotate(0deg); } 25% { transform: rotate(20deg); } 75% { transform: rotate(-20deg); } }
-@keyframes border-glow { 0%, 100% { border-color: #FFD700; box-shadow: inset 0 0 20px rgba(255, 215, 0, 0.3), 0 0 20px rgba(255, 215, 0, 0.3); } 50% { border-color: #D4AF37; box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0.5); } }
-</style>
+
 
 <div style="border-left: 6px solid #FFD700; border-right: 6px solid #FFD700; border-top: 8px solid #FFD700; border-bottom: 8px solid #FFD700; animation: border-glow 3s ease-in-out infinite; padding: 20px; background-color: #0d0d0d;">
 
