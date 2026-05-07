@@ -1,7 +1,5 @@
 <svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&amp;display=swap');
-    
     .panel {
       opacity: 0;
       animation: flip 2s infinite;
@@ -36,14 +34,14 @@
     }
     
     .text {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Arial Black', Gadget, sans-serif;
       font-weight: 900;
       fill: #FF5F1F;
     }
     
-    .brutalist-border {
-      stroke: #000;
-      stroke-width: 4;
+    .final-text {
+      font-family: 'Arial Black', Gadget, sans-serif;
+      font-weight: 900;
     }
   </style>
 
@@ -53,7 +51,7 @@
   <!-- Flipping Panels -->
   <g class="panel p1">
     <rect x="50" y="25" width="700" height="100" fill="#FF5F1F" />
-    <text x="400" y="85" text-anchor="middle" class="text" font-size="40">INITIATING...</text>
+    <text x="400" y="85" text-anchor="middle" class="text" font-size="40" fill="#000">INITIATING...</text>
   </g>
   <g class="panel p2">
     <rect x="50" y="25" width="700" height="100" fill="#FFFFFF" />
@@ -89,7 +87,7 @@
   </g>
   <g class="panel p10">
     <rect x="50" y="25" width="700" height="100" fill="#FFFFFF" />
-    <text x="400" y="85" text-anchor="middle" fill="#000" font-family="Orbitron" font-size="60" font-weight="900">GO</text>
+    <text x="400" y="85" text-anchor="middle" fill="#000" font-family="Arial Black" font-size="60" font-weight="900">GO</text>
   </g>
 
   <!-- Final Cinematic Reveal -->
@@ -98,37 +96,37 @@
     <g transform="translate(50, 30)">
       <rect x="5" y="5" width="110" height="80" fill="#000" />
       <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
-      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="22" fill="#000">AI</text>
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" class="final-text" font-size="22" fill="#000">AI</text>
     </g>
     <!-- CLOUD -->
     <g transform="translate(170, 30)">
       <rect x="5" y="5" width="110" height="80" fill="#000" />
       <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
-      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="18" fill="#000">CLOUD</text>
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" class="final-text" font-size="18" fill="#000">CLOUD</text>
     </g>
     <!-- DATA -->
     <g transform="translate(290, 30)">
       <rect x="5" y="5" width="110" height="80" fill="#000" />
       <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
-      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="20" fill="#000">DATA</text>
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" class="final-text" font-size="20" fill="#000">DATA</text>
     </g>
     <!-- DEVOPS -->
     <g transform="translate(410, 30)">
       <rect x="5" y="5" width="110" height="80" fill="#000" />
       <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
-      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="18" fill="#000">DEVOPS</text>
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" class="final-text" font-size="18" fill="#000">DEVOPS</text>
     </g>
     <!-- LLM -->
     <g transform="translate(530, 30)">
       <rect x="5" y="5" width="110" height="80" fill="#000" />
       <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
-      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="20" fill="#000">LLM</text>
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" class="final-text" font-size="20" fill="#000">LLM</text>
     </g>
     <!-- WEB3 -->
     <g transform="translate(650, 30)">
       <rect x="5" y="5" width="110" height="80" fill="#000" />
       <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
-      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="18" fill="#000">WEB3</text>
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" class="final-text" font-size="18" fill="#000">WEB3</text>
     </g>
   </g>
 </svg>

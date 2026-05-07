@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER: BRUTALIST OS WINDOW -->
-<img src="assets/header.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/header.svg" width="100%" />
 
 <br/>
 
@@ -12,7 +12,7 @@
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td bgcolor="#FF5F1F" style="border: 8px solid #000000; padding: 30px;">
-            <h1 style="color: #000000; font-family: 'Orbitron', sans-serif; text-transform: uppercase; letter-spacing: 5px; margin: 0;">// CHIEF AI ARCHITECT</h1>
+            <h1 style="color: #000000; font-family: 'Arial Black', Gadget, sans-serif; text-transform: uppercase; letter-spacing: 5px; margin: 0;">// CHIEF AI ARCHITECT</h1>
             <p style="color: #000000; font-family: 'Courier New', monospace; font-weight: 900; font-size: 1.2em; line-height: 1.4;">
               EXTRACTING VALUE FROM CHAOS. <br/>
               ENGINEERING THE FUTURE OF AUTONOMOUS SYSTEMS. <br/>
@@ -34,10 +34,10 @@
 <!-- TECHNOLOGY STACK: THE GRID -->
 <div style="border: 10px solid #FF5F1F; padding: 0; background-color: #000000;">
   <div style="background-color: #FF5F1F; padding: 10px; border-bottom: 8px solid #000000;">
-    <h3 style="color: #000000; font-family: 'Orbitron'; letter-spacing: 10px; margin: 0; text-align: center;">THE ARSENAL</h3>
+    <h3 style="color: #000000; font-family: 'Arial Black', Gadget, sans-serif; letter-spacing: 10px; margin: 0; text-align: center;">THE ARSENAL</h3>
   </div>
   <br/>
-  <img src="assets/arsenal.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/arsenal.svg" width="100%" />
   <br/>
   <img src="https://skill-icons.app/icons?i=py,js,ts,react,nextjs,nodejs,express,postgres,mongodb,docker,aws,github,linux,tensorflow,pytorch,bash,git,html,css,figma&perline=10" width="90%" />
   <br/><br/>

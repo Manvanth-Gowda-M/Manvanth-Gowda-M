@@ -1,11 +1,9 @@
 <svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&amp;display=swap');
-    
     .bg { fill: #000000; }
     .border { stroke: #FF5F1F; stroke-width: 10; }
     .text { 
-      font-family: 'Orbitron', sans-serif; 
+      font-family: 'Arial Black', Gadget, sans-serif; 
       font-weight: 900; 
       font-size: 60px; 
       fill: #FF5F1F;
