@@ -58,7 +58,7 @@
 <br/><br/>
 
 <!-- PROJECT DEPLOYMENTS: THE AUTO-SCROLL CAROUSEL -->
-<h2 align="left" style="color: #FF5F1F; font-family: 'Arial Black', sans-serif; font-size: 28px; border-left: 15px solid #FF5F1F; padding-left: 15px;">[01] ACTIVE_DEPLOYMENTS // PROJECTS</h2>
+<h2 align="left" style="color: #FF5F1F; font-family: 'Arial Black', sans-serif; font-size: 28px; border-left: 15px solid #FF5F1F; padding-left: 15px;"> ACTIVE_DEPLOYMENTS // PROJECTS</h2>
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
@@ -109,7 +109,7 @@
 </div>
 
 <!-- SYSTEM AUDIT: STATS -->
-<h2 align="left" style="color: #FF5F1F; font-family: 'Arial Black', sans-serif; font-size: 28px; border-left: 15px solid #FF5F1F; padding-left: 15px;">[02] SYSTEM_AUDIT // PERFORMANCE_ANALYSIS</h2>
+<h2 align="left" style="color: #FF5F1F; font-family: 'Arial Black', sans-serif; font-size: 28px; border-left: 15px solid #FF5F1F; padding-left: 15px;"> SYSTEM_AUDIT // PERFORMANCE_ANALYSIS</h2>
 
 <div style="border: 10px solid #FF5F1F; padding: 0; background-color: #000000; box-shadow: 15px 15px 0px #FF5F1F;">
   <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/audit_dashboard.svg?v=62" width="100%" alt="System Audit Dashboard" />
