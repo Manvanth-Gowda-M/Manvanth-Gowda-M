@@ -1,112 +1,58 @@
 <svg width="800" height="250" viewBox="0 0 800 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
   <rect width="800" height="250" fill="#000000" />
   
-  <!-- Clipping mask to only show inside the border -->
-  <defs>
-    <clipPath id="scrollArea">
-      <rect x="10" y="10" width="780" height="230" />
-    </clipPath>
-  </defs>
-
-  <!-- Scrolling Group -->
-  <g clip-path="url(#scrollArea)">
-    <g>
-      <!-- Card Template: Width 320, Height 200, Margin 20 -->
-      <!-- Card 1: Git-Proof -->
-      <g transform="translate(20, 25)">
-        <rect width="300" height="180" fill="#000" stroke="#FF5F1F" stroke-width="5" />
-        <text x="15" y="40" fill="#FF5F1F" font-family="Arial Black, sans-serif" font-size="22">GIT-PROOF</text>
-        <rect x="15" y="55" width="270" height="3" fill="#FF5F1F" />
-        <text x="15" y="85" fill="#FFF" font-family="monospace" font-size="14">
-          <tspan x="15" dy="0">Secure Git-based certification</tspan>
-          <tspan x="15" dy="20">platform. Identity governance</tspan>
-          <tspan x="15" dy="20">via version control.</tspan>
-        </text>
-        <rect x="200" y="145" width="85" height="25" fill="#FF5F1F" />
-        <text x="210" y="163" fill="#000" font-family="Arial Black, sans-serif" font-size="12">STABLE_1.0</text>
-      </g>
-
-      <!-- Card 2: Motion-X -->
-      <g transform="translate(360, 25)">
-        <rect width="300" height="180" fill="#000" stroke="#FF5F1F" stroke-width="5" />
-        <text x="15" y="40" fill="#FF5F1F" font-family="Arial Black, sans-serif" font-size="22">MOTION-X</text>
-        <rect x="15" y="55" width="270" height="3" fill="#FF5F1F" />
-        <text x="15" y="85" fill="#FFF" font-family="monospace" font-size="14">
-          <tspan x="15" dy="0">Video editing framework built</tspan>
-          <tspan x="15" dy="20">with Remotion. Programmatic</tspan>
-          <tspan x="15" dy="20">rendering pipeline.</tspan>
-        </text>
-        <rect x="200" y="145" width="85" height="25" fill="#FF5F1F" />
-        <text x="210" y="163" fill="#000" font-family="Arial Black, sans-serif" font-size="12">CORE_ENG</text>
-      </g>
-
-      <!-- Card 3: Prompt-enhancer -->
-      <g transform="translate(700, 25)">
-        <rect width="300" height="180" fill="#000" stroke="#FF5F1F" stroke-width="5" />
-        <text x="15" y="40" fill="#FF5F1F" font-family="Arial Black, sans-serif" font-size="20">PROMPT-ENHANCER</text>
-        <rect x="15" y="55" width="270" height="3" fill="#FF5F1F" />
-        <text x="15" y="85" fill="#FFF" font-family="monospace" font-size="14">
-          <tspan x="15" dy="0">MCP server for semantic AI</tspan>
-          <tspan x="15" dy="20">reliability. Optimizing</tspan>
-          <tspan x="15" dy="20">LLM context flows.</tspan>
-        </text>
-        <rect x="200" y="145" width="85" height="25" fill="#FF5F1F" />
-        <text x="210" y="163" fill="#000" font-family="Arial Black, sans-serif" font-size="12">AI_INFRA</text>
-      </g>
-
-      <!-- Card 4: NexusDB -->
-      <g transform="translate(1040, 25)">
-        <rect width="300" height="180" fill="#000" stroke="#FF5F1F" stroke-width="5" />
-        <text x="15" y="40" fill="#FF5F1F" font-family="Arial Black, sans-serif" font-size="22">NEXUSDB</text>
-        <rect x="15" y="55" width="270" height="3" fill="#FF5F1F" />
-        <text x="15" y="85" fill="#FFF" font-family="monospace" font-size="14">
-          <tspan x="15" dy="0">High-performance persistent</tspan>
-          <tspan x="15" dy="20">JSON engine with ACID-like</tspan>
-          <tspan x="15" dy="20">transaction support.</tspan>
-        </text>
-        <rect x="200" y="145" width="85" height="25" fill="#FF5F1F" />
-        <text x="210" y="163" fill="#000" font-family="Arial Black, sans-serif" font-size="12">STORAGE</text>
-      </g>
-
-      <!-- Card 5: Vivid-UI -->
-      <g transform="translate(1380, 25)">
-        <rect width="300" height="180" fill="#000" stroke="#FF5F1F" stroke-width="5" />
-        <text x="15" y="40" fill="#FF5F1F" font-family="Arial Black, sans-serif" font-size="22">VIVID-UI</text>
-        <rect x="15" y="55" width="270" height="3" fill="#FF5F1F" />
-        <text x="15" y="85" fill="#FFF" font-family="monospace" font-size="14">
-          <tspan x="15" dy="0">Premium design system for</tspan>
-          <tspan x="15" dy="20">Modern React Apps. Pixel</tspan>
-          <tspan x="15" dy="20">perfect components.</tspan>
-        </text>
-        <rect x="200" y="145" width="85" height="25" fill="#FF5F1F" />
-        <text x="210" y="163" fill="#000" font-family="Arial Black, sans-serif" font-size="12">DESIGN_SYS</text>
-      </g>
-
-      <!-- Duplicate Card 1 for seamless loop -->
-      <g transform="translate(1720, 25)">
-        <rect width="300" height="180" fill="#000" stroke="#FF5F1F" stroke-width="5" />
-        <text x="15" y="40" fill="#FF5F1F" font-family="Arial Black, sans-serif" font-size="22">GIT-PROOF</text>
-        <rect x="15" y="55" width="270" height="3" fill="#FF5F1F" />
-        <text x="15" y="85" fill="#FFF" font-family="monospace" font-size="14">
-          <tspan x="15" dy="0">Secure Git-based certification</tspan>
-          <tspan x="15" dy="20">platform. Identity governance</tspan>
-          <tspan x="15" dy="20">via version control.</tspan>
-        </text>
-        <rect x="200" y="145" width="85" height="25" fill="#FF5F1F" />
-        <text x="210" y="163" fill="#000" font-family="Arial Black, sans-serif" font-size="12">STABLE_1.0</text>
-      </g>
-
-      <animateTransform 
-        attributeName="transform" 
-        type="translate" 
-        from="0 0" 
-        to="-1700 0" 
-        dur="20s" 
-        repeatCount="indefinite" />
+  <g>
+    <!-- Card 1 -->
+    <g transform="translate(20, 25)">
+      <rect width="300" height="180" fill="#000" stroke="#FF5F1F" stroke-width="5" />
+      <text x="15" y="40" fill="#FF5F1F" font-family="sans-serif" font-weight="bold" font-size="22">GIT-PROOF</text>
+      <rect x="15" y="55" width="270" height="3" fill="#FF5F1F" />
+      <text x="15" y="85" fill="#FFF" font-family="monospace" font-size="14">Secure certification platform.</text>
+      <text x="15" y="105" fill="#FFF" font-family="monospace" font-size="14">Identity governance system.</text>
+      <rect x="200" y="145" width="85" height="25" fill="#FF5F1F" />
+      <text x="210" y="163" fill="#000" font-family="sans-serif" font-weight="bold" font-size="12">STABLE</text>
     </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(360, 25)">
+      <rect width="300" height="180" fill="#000" stroke="#FF5F1F" stroke-width="5" />
+      <text x="15" y="40" fill="#FF5F1F" font-family="sans-serif" font-weight="bold" font-size="22">MOTION-X</text>
+      <rect x="15" y="55" width="270" height="3" fill="#FF5F1F" />
+      <text x="15" y="85" fill="#FFF" font-family="monospace" font-size="14">Remotion video framework.</text>
+      <text x="15" y="105" fill="#FFF" font-family="monospace" font-size="14">Programmatic rendering.</text>
+      <rect x="200" y="145" width="85" height="25" fill="#FF5F1F" />
+      <text x="210" y="163" fill="#000" font-family="sans-serif" font-weight="bold" font-size="12">CORE</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(700, 25)">
+      <rect width="300" height="180" fill="#000" stroke="#FF5F1F" stroke-width="5" />
+      <text x="15" y="40" fill="#FF5F1F" font-family="sans-serif" font-weight="bold" font-size="22">NEXUSDB</text>
+      <rect x="15" y="55" width="270" height="3" fill="#FF5F1F" />
+      <text x="15" y="85" fill="#FFF" font-family="monospace" font-size="14">High-perf JSON engine.</text>
+      <text x="15" y="105" fill="#FFF" font-family="monospace" font-size="14">ACID transaction support.</text>
+      <rect x="200" y="145" width="85" height="25" fill="#FF5F1F" />
+      <text x="210" y="163" fill="#000" font-family="sans-serif" font-weight="bold" font-size="12">STORAGE</text>
+    </g>
+
+    <!-- Loop -->
+    <g transform="translate(1040, 25)">
+      <rect width="300" height="180" fill="#000" stroke="#FF5F1F" stroke-width="5" />
+      <text x="15" y="40" fill="#FF5F1F" font-family="sans-serif" font-weight="bold" font-size="22">GIT-PROOF</text>
+      <rect x="15" y="55" width="270" height="3" fill="#FF5F1F" />
+      <text x="15" y="85" fill="#FFF" font-family="monospace" font-size="14">Secure certification platform.</text>
+      <rect x="200" y="145" width="85" height="25" fill="#FF5F1F" />
+      <text x="210" y="163" fill="#000" font-family="sans-serif" font-weight="bold" font-size="12">STABLE</text>
+    </g>
+
+    <animateTransform 
+      attributeName="transform" 
+      type="translate" 
+      from="0 0" 
+      to="-1020 0" 
+      dur="15s" 
+      repeatCount="indefinite" />
   </g>
 
-  <!-- External Border -->
   <rect width="800" height="250" stroke="#FF5F1F" stroke-width="10" fill="none" />
 </svg>

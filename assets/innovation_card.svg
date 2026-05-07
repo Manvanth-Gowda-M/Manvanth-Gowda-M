@@ -1,0 +1,15 @@
+<svg width="400" height="150" viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="150" fill="#000" />
+  <rect x="5" y="5" width="390" height="140" stroke="#FF5F1F" stroke-width="4" />
+  <text x="20" y="40" fill="#FF5F1F" font-family="Arial Black" font-size="22" font-weight="900">MOTION-X</text>
+  <text x="20" y="70" fill="#FFF" font-family="monospace" font-size="14">VIDEO EDITING FRAMEWORK</text>
+  <text x="20" y="90" fill="#FFF" font-family="monospace" font-size="12">REMOTION // RENDERING // PIPELINE</text>
+  
+  <rect x="20" y="110" width="100" height="20" fill="#FF5F1F" />
+  <text x="70" y="125" text-anchor="middle" fill="#000" font-family="Arial Black" font-size="10">CORE_ENG</text>
+  
+  <g transform="translate(300, 100)">
+    <rect x="5" y="5" width="30" height="30" stroke="#FF5F1F" stroke-width="2" />
+    <path d="M15 15L25 20L15 25V15Z" fill="#FF5F1F" />
+  </g>
+</svg>

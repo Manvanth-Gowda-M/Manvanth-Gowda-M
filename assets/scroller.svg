@@ -1,0 +1,135 @@
+<svg width="800" height="300" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card-title { font-family: 'Arial Black', sans-serif; font-weight: 900; font-size: 24px; fill: #FF5F1F; }
+    .card-desc { font-family: 'Courier New', monospace; font-size: 14px; fill: #FFFFFF; }
+    .card-tag { font-family: 'Arial Black', sans-serif; font-size: 12px; fill: #000; }
+    .card-bg { fill: #000; stroke: #FF5F1F; stroke-width: 5; }
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-2100px); }
+    }
+    .scroller { animation: scroll 25s linear infinite; }
+    .scroller:hover { animation-play-state: paused; }
+  </style>
+
+  <rect width="800" height="300" fill="#000" />
+  
+  <defs>
+    <clipPath id="viewport">
+      <rect x="10" y="10" width="780" height="280" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#viewport)">
+    <g class="scroller">
+      <!-- PROJECT CARDS (350px width including margin) -->
+      
+      <!-- Card 1: GIT-PROOF -->
+      <g transform="translate(0, 40)">
+        <rect x="10" y="0" width="320" height="200" class="card-bg" />
+        <text x="30" y="45" class="card-title">GIT-PROOF</text>
+        <rect x="30" y="55" width="280" height="4" fill="#FF5F1F" />
+        <text x="30" y="90" class="card-desc">
+          <tspan x="30" dy="0">SECURE CERTIFICATION</tspan>
+          <tspan x="30" dy="20">PLATFORM. IDENTITY</tspan>
+          <tspan x="30" dy="20">GOVERNANCE VIA GIT.</tspan>
+        </text>
+        <rect x="220" y="150" width="90" height="30" fill="#FF5F1F" />
+        <text x="265" y="170" text-anchor="middle" class="card-tag">STABLE_1.0</text>
+      </g>
+
+      <!-- Card 2: MOTION-X -->
+      <g transform="translate(350, 40)">
+        <rect x="10" y="0" width="320" height="200" class="card-bg" />
+        <text x="30" y="45" class="card-title">MOTION-X</text>
+        <rect x="30" y="55" width="280" height="4" fill="#FF5F1F" />
+        <text x="30" y="90" class="card-desc">
+          <tspan x="30" dy="0">REMOTION VIDEO ENGINE.</tspan>
+          <tspan x="30" dy="20">PROGRAMMATIC RENDERING</tspan>
+          <tspan x="30" dy="20">PIPELINE FOR WEB.</tspan>
+        </text>
+        <rect x="220" y="150" width="90" height="30" fill="#FF5F1F" />
+        <text x="265" y="170" text-anchor="middle" class="card-tag">CORE_ENG</text>
+      </g>
+
+      <!-- Card 3: PROMPT-ENHANCER -->
+      <g transform="translate(700, 40)">
+        <rect x="10" y="0" width="320" height="200" class="card-bg" />
+        <text x="30" y="45" class="card-title" font-size="20">PROMPT-ENHANCER</text>
+        <rect x="30" y="55" width="280" height="4" fill="#FF5F1F" />
+        <text x="30" y="90" class="card-desc">
+          <tspan x="30" dy="0">MCP SERVER FOR AI.</tspan>
+          <tspan x="30" dy="20">SEMANTIC RELIABILITY</tspan>
+          <tspan x="30" dy="20">&amp; CONTEXT OPTIMIZATION.</tspan>
+        </text>
+        <rect x="220" y="150" width="90" height="30" fill="#FF5F1F" />
+        <text x="265" y="170" text-anchor="middle" class="card-tag">AI_INFRA</text>
+      </g>
+
+      <!-- Card 4: NEXUSDB -->
+      <g transform="translate(1050, 40)">
+        <rect x="10" y="0" width="320" height="200" class="card-bg" />
+        <text x="30" y="45" class="card-title">NEXUSDB</text>
+        <rect x="30" y="55" width="280" height="4" fill="#FF5F1F" />
+        <text x="30" y="90" class="card-desc">
+          <tspan x="30" dy="0">HI-PERF JSON ENGINE.</tspan>
+          <tspan x="30" dy="20">ACID TRANSACTIONS &amp;</tspan>
+          <tspan x="30" dy="20">PERSISTENT STORAGE.</tspan>
+        </text>
+        <rect x="220" y="150" width="90" height="30" fill="#FF5F1F" />
+        <text x="265" y="170" text-anchor="middle" class="card-tag">STORAGE</text>
+      </g>
+
+      <!-- Card 5: VIVID-UI -->
+      <g transform="translate(1400, 40)">
+        <rect x="10" y="0" width="320" height="200" class="card-bg" />
+        <text x="30" y="45" class="card-title">VIVID-UI</text>
+        <rect x="30" y="55" width="280" height="4" fill="#FF5F1F" />
+        <text x="30" y="90" class="card-desc">
+          <tspan x="30" dy="0">PREMIUM DESIGN SYSTEM.</tspan>
+          <tspan x="30" dy="20">PIXEL-PERFECT UI</tspan>
+          <tspan x="30" dy="20">COMPONENTS FOR REACT.</tspan>
+        </text>
+        <rect x="220" y="150" width="90" height="30" fill="#FF5F1F" />
+        <text x="265" y="170" text-anchor="middle" class="card-tag">DESIGN</text>
+      </g>
+
+      <!-- Card 6: GESTURES-BY-KIMI -->
+      <g transform="translate(1750, 40)">
+        <rect x="10" y="0" width="320" height="200" class="card-bg" />
+        <text x="30" y="45" class="card-title" font-size="20">GESTURES-BY-KIMI</text>
+        <rect x="30" y="55" width="280" height="4" fill="#FF5F1F" />
+        <text x="30" y="90" class="card-desc">
+          <tspan x="30" dy="0">AI GESTURE TRACKING.</tspan>
+          <tspan x="30" dy="20">REAL-TIME HAND MOTION</tspan>
+          <tspan x="30" dy="20">ANALYSIS &amp; CONTROL.</tspan>
+        </text>
+        <rect x="220" y="150" width="90" height="30" fill="#FF5F1F" />
+        <text x="265" y="170" text-anchor="middle" class="card-tag">AI_VISION</text>
+      </g>
+
+      <!-- DUPLICATE FOR SEAMLESS LOOP (2100px total shift) -->
+      <!-- Card 1: GIT-PROOF -->
+      <g transform="translate(2100, 40)">
+        <rect x="10" y="0" width="320" height="200" class="card-bg" />
+        <text x="30" y="45" class="card-title">GIT-PROOF</text>
+        <rect x="30" y="55" width="280" height="4" fill="#FF5F1F" />
+        <text x="30" y="90" class="card-desc">
+          <tspan x="30" dy="0">SECURE CERTIFICATION</tspan>
+          <tspan x="30" dy="20">PLATFORM. IDENTITY</tspan>
+          <tspan x="30" dy="20">GOVERNANCE VIA GIT.</tspan>
+        </text>
+        <rect x="220" y="150" width="90" height="30" fill="#FF5F1F" />
+        <text x="265" y="170" text-anchor="middle" class="card-tag">STABLE_1.0</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SCANNER LINE -->
+  <rect x="10" y="10" width="5" height="280" fill="#FF5F1F" opacity="0.8">
+    <animate attributeName="x" from="10" to="790" dur="2s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- BORDER -->
+  <rect x="5" y="5" width="790" height="290" stroke="#FF5F1F" stroke-width="10" fill="none" />
+</svg>
