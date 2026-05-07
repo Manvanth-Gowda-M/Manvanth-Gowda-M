@@ -1,59 +1,134 @@
 <svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .cell {
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&amp;display=swap');
+    
+    .panel {
+      opacity: 0;
+      animation: flip 2s infinite;
+    }
+    
+    @keyframes flip {
+      0%, 100% { opacity: 0; }
+      1% { opacity: 1; }
+      9% { opacity: 1; }
+      10% { opacity: 0; }
+    }
+    
+    .p1 { animation-delay: 0.0s; }
+    .p2 { animation-delay: 0.1s; }
+    .p3 { animation-delay: 0.2s; }
+    .p4 { animation-delay: 0.3s; }
+    .p5 { animation-delay: 0.4s; }
+    .p6 { animation-delay: 0.5s; }
+    .p7 { animation-delay: 0.6s; }
+    .p8 { animation-delay: 0.7s; }
+    .p9 { animation-delay: 0.8s; }
+    .p10 { animation-delay: 0.9s; }
+    
+    .final {
+      opacity: 0;
+      animation: showFinal 2s infinite;
+    }
+    
+    @keyframes showFinal {
+      0%, 45% { opacity: 0; transform: scale(0.8); }
+      50%, 100% { opacity: 1; transform: scale(1); }
+    }
+    
+    .text {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 900;
       fill: #FF5F1F;
+    }
+    
+    .brutalist-border {
       stroke: #000;
       stroke-width: 4;
-      animation: pop 3s infinite;
     }
-    .shadow {
-      fill: #000;
-    }
-    
-    @keyframes pop {
-      0%, 100% { transform: scale(1) translate(0, 0); }
-      50% { transform: scale(1.05) translate(-4px, -4px); }
-    }
-    
-    .t1 { animation-delay: 0s; }
-    .t2 { animation-delay: 0.2s; }
-    .t3 { animation-delay: 0.4s; }
-    .t4 { animation-delay: 0.6s; }
-    .t5 { animation-delay: 0.8s; }
-    .t6 { animation-delay: 1.0s; }
   </style>
 
-  <!-- Hard Shadows -->
-  <rect x="58" y="38" width="100" height="80" class="shadow" />
-  <rect x="178" y="38" width="100" height="80" class="shadow" />
-  <rect x="298" y="38" width="100" height="80" class="shadow" />
-  <rect x="418" y="38" width="100" height="80" class="shadow" />
-  <rect x="538" y="38" width="100" height="80" class="shadow" />
-  <rect x="658" y="38" width="100" height="80" class="shadow" />
+  <!-- Background -->
+  <rect width="800" height="150" fill="#000" />
 
-  <!-- Cells -->
-  <g transform-origin="100 70">
-    <rect x="50" y="30" width="100" height="80" class="cell t1" />
-    <text x="100" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">AI</text>
+  <!-- Flipping Panels -->
+  <g class="panel p1">
+    <rect x="50" y="25" width="700" height="100" fill="#FF5F1F" />
+    <text x="400" y="85" text-anchor="middle" class="text" font-size="40">INITIATING...</text>
   </g>
-  <g transform-origin="220 70">
-    <rect x="170" y="30" width="100" height="80" class="cell t2" />
-    <text x="220" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">CLOUD</text>
+  <g class="panel p2">
+    <rect x="50" y="25" width="700" height="100" fill="#FFFFFF" />
+    <text x="400" y="85" text-anchor="middle" fill="#000" font-family="monospace" font-size="20">01010110 01101001 01110010 01110101 01110011</text>
   </g>
-  <g transform-origin="340 70">
-    <rect x="290" y="30" width="100" height="80" class="cell t3" />
-    <text x="340" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">DATA</text>
+  <g class="panel p3">
+    <rect x="50" y="25" width="700" height="100" fill="#FF5F1F" />
+    <path d="M100 50 L700 50 M100 75 L700 75 M100 100 L700 100" stroke="#000" stroke-width="2" />
   </g>
-  <g transform-origin="460 70">
-    <rect x="410" y="30" width="100" height="80" class="cell t4" />
-    <text x="460" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">DEVOPS</text>
+  <g class="panel p4">
+    <rect x="50" y="25" width="700" height="100" fill="#000" stroke="#FF5F1F" stroke-width="10" />
+    <text x="400" y="85" text-anchor="middle" class="text" font-size="50">SYSTEM</text>
   </g>
-  <g transform-origin="580 70">
-    <rect x="530" y="30" width="100" height="80" class="cell t5" />
-    <text x="580" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">LLM</text>
+  <g class="panel p5">
+    <rect x="50" y="25" width="700" height="100" fill="#FF5F1F" />
+    <circle cx="400" cy="75" r="40" stroke="#000" stroke-width="5" />
   </g>
-  <g transform-origin="700 70">
-    <rect x="650" y="30" width="100" height="80" class="cell t6" />
-    <text x="700" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">WEB3</text>
+  <g class="panel p6">
+    <rect x="50" y="25" width="700" height="100" fill="#FFFFFF" />
+    <text x="400" y="85" text-anchor="middle" fill="#000" font-family="monospace" font-size="30">LOADING_MODULES</text>
+  </g>
+  <g class="panel p7">
+    <rect x="50" y="25" width="700" height="100" fill="#FF5F1F" />
+    <rect x="100" y="40" width="600" height="70" stroke="#000" stroke-width="2" fill="none" />
+  </g>
+  <g class="panel p8">
+    <rect x="50" y="25" width="700" height="100" fill="#000" stroke="#FFFFFF" stroke-width="5" />
+    <text x="400" y="85" text-anchor="middle" class="text" font-size="40" fill="#FFFFFF">DATA_EXTRACT</text>
+  </g>
+  <g class="panel p9">
+    <rect x="50" y="25" width="700" height="100" fill="#FF5F1F" />
+    <path d="M400 30 L400 120 M100 75 L700 75" stroke="#000" stroke-width="4" />
+  </g>
+  <g class="panel p10">
+    <rect x="50" y="25" width="700" height="100" fill="#FFFFFF" />
+    <text x="400" y="85" text-anchor="middle" fill="#000" font-family="Orbitron" font-size="60" font-weight="900">GO</text>
+  </g>
+
+  <!-- Final Cinematic Reveal -->
+  <g class="final" transform-origin="400 75">
+    <!-- AI -->
+    <g transform="translate(50, 30)">
+      <rect x="5" y="5" width="110" height="80" fill="#000" />
+      <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="22" fill="#000">AI</text>
+    </g>
+    <!-- CLOUD -->
+    <g transform="translate(170, 30)">
+      <rect x="5" y="5" width="110" height="80" fill="#000" />
+      <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="18" fill="#000">CLOUD</text>
+    </g>
+    <!-- DATA -->
+    <g transform="translate(290, 30)">
+      <rect x="5" y="5" width="110" height="80" fill="#000" />
+      <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="20" fill="#000">DATA</text>
+    </g>
+    <!-- DEVOPS -->
+    <g transform="translate(410, 30)">
+      <rect x="5" y="5" width="110" height="80" fill="#000" />
+      <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="18" fill="#000">DEVOPS</text>
+    </g>
+    <!-- LLM -->
+    <g transform="translate(530, 30)">
+      <rect x="5" y="5" width="110" height="80" fill="#000" />
+      <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="20" fill="#000">LLM</text>
+    </g>
+    <!-- WEB3 -->
+    <g transform="translate(650, 30)">
+      <rect x="5" y="5" width="110" height="80" fill="#000" />
+      <rect width="110" height="80" fill="#FF5F1F" stroke="#000" stroke-width="4" />
+      <text x="55" y="45" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron" font-weight="900" font-size="18" fill="#000">WEB3</text>
+    </g>
   </g>
 </svg>
