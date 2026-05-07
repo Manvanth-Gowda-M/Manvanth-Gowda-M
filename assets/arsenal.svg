@@ -1,0 +1,59 @@
+<svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .cell {
+      fill: #FF5F1F;
+      stroke: #000;
+      stroke-width: 4;
+      animation: pop 3s infinite;
+    }
+    .shadow {
+      fill: #000;
+    }
+    
+    @keyframes pop {
+      0%, 100% { transform: scale(1) translate(0, 0); }
+      50% { transform: scale(1.05) translate(-4px, -4px); }
+    }
+    
+    .t1 { animation-delay: 0s; }
+    .t2 { animation-delay: 0.2s; }
+    .t3 { animation-delay: 0.4s; }
+    .t4 { animation-delay: 0.6s; }
+    .t5 { animation-delay: 0.8s; }
+    .t6 { animation-delay: 1.0s; }
+  </style>
+
+  <!-- Hard Shadows -->
+  <rect x="58" y="38" width="100" height="80" class="shadow" />
+  <rect x="178" y="38" width="100" height="80" class="shadow" />
+  <rect x="298" y="38" width="100" height="80" class="shadow" />
+  <rect x="418" y="38" width="100" height="80" class="shadow" />
+  <rect x="538" y="38" width="100" height="80" class="shadow" />
+  <rect x="658" y="38" width="100" height="80" class="shadow" />
+
+  <!-- Cells -->
+  <g transform-origin="100 70">
+    <rect x="50" y="30" width="100" height="80" class="cell t1" />
+    <text x="100" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">AI</text>
+  </g>
+  <g transform-origin="220 70">
+    <rect x="170" y="30" width="100" height="80" class="cell t2" />
+    <text x="220" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">CLOUD</text>
+  </g>
+  <g transform-origin="340 70">
+    <rect x="290" y="30" width="100" height="80" class="cell t3" />
+    <text x="340" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">DATA</text>
+  </g>
+  <g transform-origin="460 70">
+    <rect x="410" y="30" width="100" height="80" class="cell t4" />
+    <text x="460" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">DEVOPS</text>
+  </g>
+  <g transform-origin="580 70">
+    <rect x="530" y="30" width="100" height="80" class="cell t5" />
+    <text x="580" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">LLM</text>
+  </g>
+  <g transform-origin="700 70">
+    <rect x="650" y="30" width="100" height="80" class="cell t6" />
+    <text x="700" y="75" text-anchor="middle" font-family="monospace" font-weight="900" font-size="20" fill="#000">WEB3</text>
+  </g>
+</svg>
