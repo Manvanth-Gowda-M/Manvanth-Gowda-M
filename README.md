@@ -47,26 +47,36 @@
 
 <br/><br/>
 
-<!-- PROJECT GRID -->
-<h2 align="left" style="color: #FF5F1F; font-family: 'Arial Black', sans-serif; font-size: 28px; border-left: 15px solid #FF5F1F; padding-left: 15px;">[01] PROJECT_DEPLOYMENTS</h2>
+<!-- PROJECT DEPLOYMENTS: THE AUTO-SCROLL CAROUSEL -->
+<h2 align="left" style="color: #FF5F1F; font-family: 'Arial Black', sans-serif; font-size: 28px; border-left: 15px solid #FF5F1F; padding-left: 15px;">[01] ACTIVE_DEPLOYMENTS // PROJECTS</h2>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#000000" style="border: 8px solid #FF5F1F; padding: 0;">
+      <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/projects_scroll.svg" width="100%" alt="Scrolling Projects" />
+    </td>
+  </tr>
+</table>
+
+<br/>
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td width="50%" valign="top">
-      <!-- PROJECT 1 -->
+      <!-- ELITE PROJECT: GIT-PROOF -->
       <div style="border: 8px solid #000000; background-color: #FF5F1F; padding: 5px;">
-        <p align="left" style="color: #000000; font-weight: 900; font-family: 'Arial Black'; margin: 5px;">[01] TOP STORY</p>
-        <a href="https://github.com/Manvanth-Gowda-M/-nexus-db">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Manvanth-Gowda-M&repo=-nexus-db&theme=radical&bg_color=000&title_color=FF5F1F&icon_color=FF5F1F&text_color=FFF&border_color=FF5F1F" width="100%" />
+        <p align="left" style="color: #000000; font-weight: 900; font-family: 'Arial Black'; margin: 5px;">[!] ELITE_PROJECT: GIT-PROOF</p>
+        <a href="https://github.com/Manvanth-Gowda-M/Git-Proof">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Manvanth-Gowda-M&repo=Git-Proof&theme=radical&bg_color=000&title_color=FF5F1F&icon_color=FF5F1F&text_color=FFF&border_color=FF5F1F" width="100%" />
         </a>
       </div>
     </td>
     <td width="50%" valign="top" style="padding-left: 10px;">
-      <!-- PROJECT 2 -->
+      <!-- INNOVATION: MOTION-X -->
       <div style="border: 8px solid #FF5F1F; background-color: #000000; padding: 5px;">
-        <p align="left" style="color: #FF5F1F; font-weight: 900; font-family: 'Arial Black'; margin: 5px;">[02] INNOVATION</p>
-        <a href="https://github.com/Manvanth-Gowda-M/vivid-ui">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Manvanth-Gowda-M&repo=vivid-ui&theme=radical&bg_color=000&title_color=FF5F1F&icon_color=FF5F1F&text_color=FFF&border_color=FF5F1F" width="100%" />
+        <p align="left" style="color: #FF5F1F; font-weight: 900; font-family: 'Arial Black'; margin: 5px;">[+] INNOVATION: MOTION-X</p>
+        <a href="https://github.com/Manvanth-Gowda-M/Motion-X">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Manvanth-Gowda-M&repo=Motion-X&theme=radical&bg_color=000&title_color=FF5F1F&icon_color=FF5F1F&text_color=FFF&border_color=FF5F1F" width="100%" />
         </a>
       </div>
     </td>
