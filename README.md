@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER: BRUTALIST OS -->
-<img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/header.svg?v=30" width="100%" alt="Brutalist OS Header" />
+<img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/header.svg?v=50" width="100%" alt="Brutalist OS Header" />
 
 <br/>
 
@@ -47,7 +47,7 @@
     <h3 style="color: #000000; font-family: 'Arial Black', Gadget, sans-serif; letter-spacing: 10px; margin: 0; text-align: center;">[00] THE_ARSENAL</h3>
   </div>
   <br/>
-  <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/arsenal.svg?v=30" width="100%" alt="Cinematic Arsenal" />
+  <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/arsenal.svg?v=50" width="100%" alt="Cinematic Arsenal" />
   <br/>
   <div align="center">
     <img src="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,nodejs,express,postgres,mongodb,docker,aws,github,linux,tensorflow,pytorch,bash,git,html,css,figma&perline=10" width="90%" />
@@ -64,7 +64,7 @@
   <tr>
     <td bgcolor="#000000" style="border: 8px solid #FF5F1F; padding: 0;">
       <!-- LINKED SCROLLING SVG FOR STABILITY -->
-      <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/scroller.svg?v=30" width="100%" alt="Scrolling Projects Animation" />
+      <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/scroller.svg?v=50" width="100%" alt="Scrolling Projects Animation" />
     </td>
   </tr>
 </table>
@@ -77,9 +77,9 @@
     <td width="50%" valign="top">
       <!-- ELITE PROJECT: GIT-PROOF -->
       <div style="border: 8px solid #000000; background-color: #FF5F1F; padding: 5px;">
-        <p align="left" style="color: #000000; font-weight: 900; font-family: 'Arial Black'; margin: 5px;">[!] ELITE_PROJECT: GIT-PROOF</p>
-        <a href="https://github.com/Manvanth-Gowda-M/Git-Proof">
-          <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/elite_card.svg?v=30" width="100%" />
+        <p align="left" style="color: #000000; font-weight: 900; font-family: 'Arial Black'; margin: 5px;">[!] AI_TOP_STORIES: PROMPT-ENHANCER</p>
+        <a href="https://github.com/Manvanth-Gowda-M/Prompt-enhancer">
+          <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/ai_card.svg?v=50" width="100%" />
         </a>
       </div>
     </td>
@@ -88,7 +88,7 @@
       <div style="border: 8px solid #FF5F1F; background-color: #000000; padding: 5px;">
         <p align="left" style="color: #FF5F1F; font-weight: 900; font-family: 'Arial Black'; margin: 5px;">[+] INNOVATION: MOTION-X</p>
         <a href="https://github.com/Manvanth-Gowda-M/Motion-X">
-          <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/innovation_card.svg?v=30" width="100%" />
+          <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/innovation_card.svg?v=50" width="100%" />
         </a>
       </div>
     </td>
@@ -96,6 +96,17 @@
 </table>
 
 <br/><br/>
+
+
+<!-- INBOX: SYSTEM MESSAGES -->
+<div style="border: 8px solid #000000; background-color: #FF5F1F; padding: 10px; margin-top: 20px; box-shadow: 10px 10px 0px #000;">
+  <p style="color: #000; font-family: 'Arial Black', sans-serif; margin: 0; font-size: 14px;">[#] INCOMING_TRANSMISSION...</p>
+  <p style="color: #000; font-family: 'Courier New', monospace; font-size: 12px; margin: 5px 0;">
+    > NEW_PROJECT_DETECTED: PROMPT-ENHANCER [STABLE]<br/>
+    > SYSTEM_OPTIMIZATION: COMPLETE<br/>
+    > SECURITY_AUDIT: PASSED
+  </p>
+</div>
 
 <!-- SYSTEM AUDIT: STATS -->
 <h2 align="left" style="color: #FF5F1F; font-family: 'Arial Black', sans-serif; font-size: 28px; border-left: 15px solid #FF5F1F; padding-left: 15px;">[02] SYSTEM_AUDIT</h2>
