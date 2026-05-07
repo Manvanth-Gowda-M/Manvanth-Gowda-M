@@ -41,9 +41,19 @@
 
 <br/><br/>
 
-<!-- TECH ARSENAL: MARVEL STYLE -->
-<h2 align="left" style="color: #FF5F1F; font-family: 'Arial Black', sans-serif; font-size: 28px; border-left: 15px solid #FF5F1F; padding-left: 15px;">[00] TECH_ARSENAL</h2>
-<img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/arsenal.svg" width="100%" alt="Tech Arsenal" />
+<!-- TECHNOLOGY STACK: THE ARSENAL -->
+<div style="border: 10px solid #FF5F1F; padding: 0; background-color: #000000; box-shadow: 15px 15px 0px #FF5F1F;">
+  <div style="background-color: #FF5F1F; padding: 10px; border-bottom: 8px solid #000000;">
+    <h3 style="color: #000000; font-family: 'Arial Black', Gadget, sans-serif; letter-spacing: 10px; margin: 0; text-align: center;">[00] THE_ARSENAL</h3>
+  </div>
+  <br/>
+  <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/arsenal.svg" width="100%" alt="Cinematic Arsenal" />
+  <br/>
+  <div align="center">
+    <img src="https://skill-icons.app/icons?i=py,js,ts,react,nextjs,nodejs,express,postgres,mongodb,docker,aws,github,linux,tensorflow,pytorch,bash,git,html,css,figma&perline=10" width="90%" />
+  </div>
+  <br/><br/>
+</div>
 
 <br/><br/>
 
