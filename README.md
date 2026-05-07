@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER: BRUTALIST OS -->
-<img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/header.svg" width="100%" alt="Brutalist OS Header" />
+<img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/header.svg?v=2" width="100%" alt="Brutalist OS Header" />
 
 <br/>
 
@@ -47,10 +47,10 @@
     <h3 style="color: #000000; font-family: 'Arial Black', Gadget, sans-serif; letter-spacing: 10px; margin: 0; text-align: center;">[00] THE_ARSENAL</h3>
   </div>
   <br/>
-  <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/arsenal.svg" width="100%" alt="Cinematic Arsenal" />
+  <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/arsenal.svg?v=2" width="100%" alt="Cinematic Arsenal" />
   <br/>
   <div align="center">
-    <img src="https://skill-icons.app/icons?i=py,js,ts,react,nextjs,nodejs,express,postgres,mongodb,docker,aws,github,linux,tensorflow,pytorch,bash,git,html,css,figma&perline=10" width="90%" />
+    <img src="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,nodejs,express,postgres,mongodb,docker,aws,github,linux,tensorflow,pytorch,bash,git,html,css,figma&perline=10" width="90%" />
   </div>
   <br/><br/>
 </div>
@@ -63,7 +63,7 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td bgcolor="#000000" style="border: 8px solid #FF5F1F; padding: 0;">
-      <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/projects_scroll.svg" width="100%" alt="Scrolling Projects" />
+      <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/projects_scroll.svg?v=2" width="100%" alt="Scrolling Projects" />
     </td>
   </tr>
 </table>
