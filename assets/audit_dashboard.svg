@@ -1,0 +1,89 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes scan {
+      0% { transform: translateY(-450px); }
+      100% { transform: translateY(450px); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+    @keyframes glow {
+      0%, 100% { filter: drop-shadow(0 0 2px #FF5F1F); }
+      50% { filter: drop-shadow(0 0 8px #FF5F1F); }
+    }
+    .text-main { font-family: 'Arial Black', sans-serif; fill: #FF5F1F; font-weight: 900; }
+    .text-sub { font-family: 'Courier New', monospace; fill: #FFF; font-weight: bold; }
+    .bar-bg { fill: #222; }
+    .bar-fill { fill: #FF5F1F; }
+    .grid-line { stroke: #FF5F1F; stroke-width: 0.5; opacity: 0.2; }
+  </style>
+
+  <rect width="800" height="450" fill="#000" />
+  
+  <!-- Background Grid -->
+  <g>
+    <path d="M0 50H800M0 100H800M0 150H800M0 200H800M0 250H800M0 300H800M0 350H800M0 400H800" class="grid-line" />
+    <path d="M100 0V450M200 0V450M300 0V450M400 0V450M500 0V450M600 0V450M700 0V450" class="grid-line" />
+  </g>
+
+  <!-- Header -->
+  <rect x="10" y="10" width="780" height="40" fill="#FF5F1F" />
+  <text x="30" y="40" fill="#000" font-family="Arial Black" font-size="24">SYSTEM_AUDIT // LIVE_METRICS</text>
+  <text x="770" y="38" text-anchor="end" fill="#000" font-family="Courier New" font-size="12" font-weight="bold">REFRESH_RATE: 0.5s</text>
+
+  <!-- Main Stats -->
+  <g transform="translate(40, 80)">
+    <!-- Contributions -->
+    <text x="0" y="20" class="text-main" font-size="14">TOTAL_CONTRIBUTIONS</text>
+    <text x="0" y="60" class="text-main" font-size="48" style="animation: glow 2s infinite;">1,124</text>
+    
+    <!-- Stars -->
+    <text x="300" y="20" class="text-main" font-size="14">GLOBAL_STARS</text>
+    <text x="300" y="60" class="text-main" font-size="48">53</text>
+    
+    <!-- Repos -->
+    <text x="550" y="20" class="text-main" font-size="14">ACTIVE_REPOS</text>
+    <text x="550" y="60" class="text-main" font-size="48">39</text>
+  </g>
+
+  <!-- Stylized Graph (Marvel Style) -->
+  <g transform="translate(40, 180)">
+    <rect width="720" height="150" fill="#111" stroke="#FF5F1F" stroke-width="2" />
+    <path d="M0 130 L50 110 L100 140 L150 80 L200 100 L250 40 L300 90 L350 120 L400 70 L450 30 L500 60 L550 110 L600 90 L650 50 L720 100" 
+          stroke="#FF5F1F" stroke-width="4" fill="none" style="filter: drop-shadow(0 0 5px #FF5F1F);">
+      <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="3s" repeatCount="indefinite" />
+    </path>
+    <text x="10" y="25" class="text-sub" font-size="10">COMMIT_VELOCITY_INDEX</text>
+  </g>
+
+  <!-- Language Distribution -->
+  <g transform="translate(40, 360)">
+    <!-- JS -->
+    <text x="0" y="0" class="text-sub" font-size="12">JAVASCRIPT (45%)</text>
+    <rect x="0" y="10" width="200" height="15" class="bar-bg" />
+    <rect x="0" y="10" width="90" height="15" class="bar-fill">
+      <animate attributeName="width" from="0" to="90" dur="1s" fill="freeze" />
+    </rect>
+    
+    <!-- TS -->
+    <text x="250" y="0" class="text-sub" font-size="12">TYPESCRIPT (35%)</text>
+    <rect x="250" y="10" width="200" height="15" class="bar-bg" />
+    <rect x="250" y="10" width="70" height="15" class="bar-fill">
+      <animate attributeName="width" from="0" to="70" dur="1s" begin="0.2s" fill="freeze" />
+    </rect>
+    
+    <!-- Python -->
+    <text x="500" y="0" class="text-sub" font-size="12">PYTHON (15%)</text>
+    <rect x="500" y="10" width="200" height="15" class="bar-bg" />
+    <rect x="500" y="10" width="30" height="15" class="bar-fill">
+      <animate attributeName="width" from="0" to="30" dur="1s" begin="0.4s" fill="freeze" />
+    </rect>
+  </g>
+
+  <!-- Continuous Scanner Line -->
+  <rect x="0" y="0" width="800" height="2" fill="#FF5F1F" opacity="0.6" style="animation: scan 4s linear infinite;" />
+  
+  <!-- Border -->
+  <rect x="5" y="5" width="790" height="440" stroke="#FF5F1F" stroke-width="10" fill="none" />
+</svg>

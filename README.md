@@ -109,21 +109,10 @@
 </div>
 
 <!-- SYSTEM AUDIT: STATS -->
-<h2 align="left" style="color: #FF5F1F; font-family: 'Arial Black', sans-serif; font-size: 28px; border-left: 15px solid #FF5F1F; padding-left: 15px;">[02] SYSTEM_AUDIT</h2>
+<h2 align="left" style="color: #FF5F1F; font-family: 'Arial Black', sans-serif; font-size: 28px; border-left: 15px solid #FF5F1F; padding-left: 15px;">[02] SYSTEM_AUDIT // PERFORMANCE_ANALYSIS</h2>
 
-<div style="border: 10px solid #FF5F1F; padding: 20px; background-color: #000000; box-shadow: 15px 15px 0px #FF5F1F;">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Manvanth-Gowda-M&bg_color=000000&color=FF5F1F&line=FF5F1F&point=FFFFFF&area=true&hide_border=true" width="100%" />
-  <br/><br/>
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=Manvanth-Gowda-M&show_icons=true&theme=radical&bg_color=000&title_color=FF5F1F&icon_color=FF5F1F&text_color=FFF&hide_border=true" width="95%" />
-      </td>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manvanth-Gowda-M&layout=compact&theme=radical&bg_color=000&title_color=FF5F1F&icon_color=FF5F1F&text_color=FFF&hide_border=true" width="95%" />
-      </td>
-    </tr>
-  </table>
+<div style="border: 10px solid #FF5F1F; padding: 0; background-color: #000000; box-shadow: 15px 15px 0px #FF5F1F;">
+  <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/audit_dashboard.svg?v=62" width="100%" alt="System Audit Dashboard" />
 </div>
 
 <br/><br/>
