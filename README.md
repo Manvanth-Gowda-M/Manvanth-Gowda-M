@@ -44,7 +44,7 @@
 <!-- TECHNOLOGY STACK: THE ARSENAL -->
 <div style="border: 10px solid #FF5F1F; padding: 0; background-color: #000000; box-shadow: 15px 15px 0px #FF5F1F;">
   <div style="background-color: #FF5F1F; padding: 10px; border-bottom: 8px solid #000000;">
-    <h3 style="color: #000000; font-family: 'Arial Black', Gadget, sans-serif; letter-spacing: 10px; margin: 0; text-align: center;">[00] THE_ARSENAL</h3>
+    <h3 style="color: #000000; font-family: 'Arial Black', Gadget, sans-serif; letter-spacing: 10px; margin: 0; text-align: center;"> THE_ARSENAL</h3>
   </div>
   <br/>
   <img src="https://raw.githubusercontent.com/Manvanth-Gowda-M/Manvanth-Gowda-M/main/assets/arsenal.svg?v=50" width="100%" alt="Cinematic Arsenal" />
